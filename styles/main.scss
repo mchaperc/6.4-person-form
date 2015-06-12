@@ -14,8 +14,21 @@ $very-light-gray: #fafafa;
 $base-font-color: $dark-gray;
 $base-background-color: $very-light-gray;
 
+$main-background: rgb(0, 51, 102);
+$foreground: rgb(204, 204, 204);
+
+@import '../styles/form';
+
+* {
+	outline: none;
+}
+
 body {
   font-family: $base-font-family;
   background-color: $base-background-color;
   color: $base-font-color;
+}
+
+body, html {
+	height: 100%;
 }
